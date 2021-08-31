@@ -1,8 +1,8 @@
 const http = require('http');
-const htmlHandler = require('./htmlResponses.js');
-const textHandler = require('./textResponses.js');
-const jsonHandler = require('./jsonResponses.js');
-const imageHandler = require('./imageResponses.js');
+const htmlHandler = require('./htmlResponses');
+const textHandler = require('./textResponses');
+const jsonHandler = require('./jsonResponses');
+const imageHandler = require('./imageResponses');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
